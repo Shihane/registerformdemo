@@ -1,0 +1,354 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+    background-color: rgba(245, 245, 245, 0);
+}
+
+.wrapper {
+    width: 1400px;
+    height: 380px;
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(potrekk/johannes-plenio-Enhs8UrXEb0-unsplash.jpg);
+    margin: auto;
+    position: relative;
+    background-position: top;
+    background-size: auto;
+    top: 0px;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    float: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu {
+    float: right;
+    color: white;
+
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: relative;
+    position: -webkit-sticky;
+    top: 0px;
+    background: #b5cb99
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 1px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#logopng {
+    margin: 0px;
+    padding: 0px;
+    position: absolute ;
+    left: 70rem;
+    top: 0rem;
+}
+
+.ktag{
+    float: right;
+    position: absolute;
+    top: 28rem;
+    left: 68rem;
+}
+
+.satya{
+    float: right;
+    position: absolute;
+    top: 28rem;
+    left: 57rem;
+}
+
+.bio-1{
+    text-align: right;
+}
+
+a:link{
+    color: #000000;
+}
+
+.boi{
+    text-align: right;
+    right: 10px;
+    top: 20%;
+} 
+.boi2{
+    position: absolute;
+    left: 58rem;
+    top: 26rem;
+    text-align: center;
+}
+
+.boiboi {
+    position: absolute;
+    left: 56rem;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.boi3{
+    position: absolute;
+    left: 57rem;
+    top: 41rem;
+    text-align: center;
+}
+
+.and1{
+    position: absolute;
+    left: 70rem;
+    top: 26rem;
+    text-align: center;
+}
+
+.and2{
+    position: absolute;
+    left: 67rem;
+    top: 41rem;
+    text-align: center;
+}
+
+.inpo1{
+    position: absolute;
+    left: 33rem;
+    top: 26rem;
+}
+
+.inpo2{
+    position: absolute;
+    left: 33rem;
+    top: 28rem;
+}
+
+.paba1{
+    position: absolute;
+    left: 1rem;
+    top: 26rem;
+}
+
+.paba2{
+    position: absolute;
+    left: 1rem;
+    top: 28rem;
+}
+
+.abot1{
+    position: absolute;
+    left: 7%;
+    top: 46 rem;
+    color: white;
+}
+
+.abot2{
+    position: absolute;
+    left: 1rem;
+    top: 47rem;
+}
+
+.profil-1 {
+    background: #FCE09B;
+    height: 20rem;
+}
+
+.bags{
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(potrekk/brown-wooden-textured-flooring-background.jpg);
+    height: 15rem;
+}
+
+.abot2{
+    width: 240px;
+    height: 80px;
+    color: rgb(254, 254, 254);
+    padding: 50px 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+}
+
+.boat ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 1px;
+    padding: 16px 0 0 0;
+}
+
+.boat ul li a{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    padding:0px 32px 0px 32px;
+    text-decoration: none;
+}
+
+.feet{
+    background: black;
+    height: 3rem;
+}
+
+.tbl-regis{
+    position: absolute;
+    right: 3rem;
+    top: 55rem;
+    color: #ffffff ;
+    padding: 8px 22px;
+    background: #186F65;
+    transition: all 0.2s ease;
+}
+
+.tbl-regis:active {
+    transform: scale(0.96);
+}
+
+   /* cssnya page regis */
+
+.bdn{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(potrekk/johannes-plenio-Enhs8UrXEb0-unsplash.jpg);
+    background-size: cover;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-family: sans-serif;
+}
+
+.regis_form{
+    padding: 20px 40px;
+}
+
+.regis_form .pend{
+    font-size: 18px;
+    color: #130f40;
+    margin: 5px 0;
+}
+
+.regis_form input{
+	height: 40px;
+	width: 350px;
+	padding: 0 5px;
+	font-size: 18px;
+	outline: none;
+	border: 1px solid silver;
+}
+.regis_form .pend2{
+	margin-top: 30px;
+}
+
+.tainer{
+	position: relative;
+	margin-top: 100px;
+	width: 450px;
+	height: auto;
+	background: #dedede;
+	border-radius: 5px;
+}
+
+.regis_form .btn2{
+	margin: 45px 0 30px 0;
+	height: 45px;
+	width: 365px;
+	font-size: 20px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	background: #581818;
+	border-radius: 3px;
+	border: 1px solid #000000;
+	transition: .5s;
+}
+.regis_form .btn2:hover{
+	background: #035110;
+}
+
+.regis_form #nama_error,
+.regis_form #nim_error{
+	margin-top: 5px;
+	width: 345px;
+	font-size: 18px;
+	color: #C62828;
+	background: rgba(255,0,0,0.1);
+	text-align: center;
+	padding: 5px 8px;
+	border-radius: 3px;
+	border: 1px solid #EF9A9A;
+	display: none;
+}
+
+.wrapper2{
+    width: 1400px;
+    height: 0px;  
+    margin: auto;
+    position: relative;
+    background-position: top;
+    background-size: auto;
+    top: 0px;
+}
+
+   /* Success regis */
+   .tainer3{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url(potrekk/johannes-plenio-Enhs8UrXEb0-unsplash.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+   .success-regis{
+    width: 400px;
+    background: white;
+    border-radius: 6px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    
+   }
+
+   .success-regis img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+   }
+
+
+
+
